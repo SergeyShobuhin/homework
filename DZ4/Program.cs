@@ -5,15 +5,12 @@
 // Определяем число и приводим его к первому чётному.
 Console.Write("Введите первое число: ");
 int number = int.Parse(Console.ReadLine());
-int numberN = number * 0 + 2;
-
+int numberN = 2;
 
 // Запускаем итерацию по чётным числам
 while (numberN < number)
     {            
-        
         Console.WriteLine(numberN);
-     
         numberN = numberN + 2;
     }
 
